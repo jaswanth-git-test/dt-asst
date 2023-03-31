@@ -1,0 +1,84 @@
+
+.main-container-assets{
+
+width: 480px;
+height: 580px;
+
+
+background: #FDFDFD;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+
+.asset-heading{
+
+ 
+width: 480px;
+height: 50px;
+
+
+background: #000000;
+border-radius: 15px 15px 0px 0px;
+
+
+
+
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.asset-heading-text{
+  display: flex;
+    margin-left: auto;
+}
+
+
+.asset-heading-icon{
+    width: 22px;
+    height: 22px;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.asset-heading-icon img{
+    width: 100%;
+    height: 100%;
+}
+
+.asset-description{
+
+
+padding: 0px 14px 15px 15px;
+
+
+
+background: #FDFDFD;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.asset-description p span{
+    font-weight: 600;
+}
+
+
+.asset-type-iframe iframe{
+
+    position: absolute;
+    width: 480px;
+    height: 291px;
+   
+}

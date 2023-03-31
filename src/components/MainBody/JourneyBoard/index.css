@@ -1,0 +1,93 @@
+
+.main-container-journey{
+   
+    position: absolute;
+    width: 132px;
+    height: 692px;
+    
+    
+    background: #FDFDFD;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 20px 20px 20px;
+    
+    z-index: 1;
+}
+
+.heading-bar-journey{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 50px;
+    
+    background: #000000;
+    border-radius: 0px 20px 0px 0px;
+}
+
+.arrow-icon{
+    
+    
+    width: 20px;
+    height: 20px;
+   
+}
+
+.arrow-icon-container{
+
+    margin-left: auto;
+    
+    padding: 10px;
+}
+
+.journey-board-heading-text{
+
+    font-family: 'Poppins','roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+margin-left: 20px;
+
+}
+
+
+.journey-board-description h1{
+
+    font-family: 'Poppins','roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+
+.journey-board-description{
+
+    font-family: 'Poppins','roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+
+.journey-board-container-open{
+
+    width: 392px;
+}
+
+.board-closed{
+
+    display: none;
+}
