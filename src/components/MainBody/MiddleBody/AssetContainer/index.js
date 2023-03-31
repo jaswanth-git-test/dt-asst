@@ -6,14 +6,19 @@ import './index.css'
 import InfoIcon from './iconAssets/circle-info-solid.svg'
 
 
-const AssetContainer = ()=>{
+const AssetContainer = (props)=>{
+    const {asset} = props;
+    const {asset_content,asset_description,asset_title
+    } = asset;
+
+    console.log(asset)
 
 
     return(
         <div className="main-container-assets">
                 <div className="asset-heading">
                         <div className="asset-heading-text">
-                            <p>Hello</p>
+                            <p>{asset_title}</p>
                         </div>
                         <div className="asset-heading-icon">
                             <img src={InfoIcon} alt='info-icon' />
@@ -21,10 +26,10 @@ const AssetContainer = ()=>{
                         
                 </div>
                 <div className="asset-description">
-                    <p><span>Description: </span>Watch the video and thread build, and jot out key threads while watching that video.</p>
+                    <p><span>Description: </span>{asset_description}</p>
                 </div>
                 <div className="asset-type-iframe">
-                    <iframe src="https://www.youtube.com/embed/TiMRwri1xJ8" title="title"></iframe>
+                    <iframe src={asset_content} title="title"></iframe>
                 </div>
         </div>
     )
